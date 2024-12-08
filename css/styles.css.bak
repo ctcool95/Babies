@@ -1,0 +1,26 @@
+/* style rules for grades_CC assignment 
+
+Created by: Cameron Cooley
+Created on: 03-22-2022
+*/
+
+body {
+	margin-top: 30%;
+	text-align: center;
+	background-image: url("space_background.jpg");
+	color: #fff;
+}
+
+body li {
+	list-style-type: none;
+	padding: 1%;
+	color: black;
+}
+
+#grade {
+	padding: 2%;
+	background-color: #CCC;
+	max-width: 33%;
+	margin-left: 33%;
+	border-radius: 15px;
+}

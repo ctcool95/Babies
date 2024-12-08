@@ -1,0 +1,130 @@
+/* style rules for Baby Growth project
+
+Created by: Cameron Cooley
+Created on: 09-15-2024
+*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px; /* Space between elements */
+	background-color: rgb(235, 235, 235);
+	padding: 10px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.tag {
+	color: #85a065;
+	margin-right: 20px;
+	margin-left: 40px; /* Space between title and buttons */
+	font-size: clamp(20px, 1vw, 36px); /* Scale the tag */
+}
+
+.nav {
+	margin-right: 40px;
+}
+
+header a button {
+	background-color: rgb(235, 235, 235);
+	color: rgb(87, 87, 87);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+/* Hover effect */
+header a button:hover {
+	background-color: #c4e996;
+}
+
+body {
+	margin-top: 10%;
+	text-align: center;
+	background-color: rgb(235, 235, 235);
+	font-family: Georgia, serif;
+}
+
+body li {
+	list-style-type: none;
+	padding: 1%;
+	color: black;
+}
+
+#pic {
+	border-radius: 60px;
+}
+
+.container {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#welcome {
+	font-family: Georgia, serif;
+}
+
+#input {
+	padding: 2%;
+	margin: 5%;
+	background-color: #a9ca80;
+	max-width: 66%;
+	margin-left: 16%;
+	border-radius: 15px;
+	font-family: Georgia, serif;
+}
+
+.lilBox {
+	width: 50%;
+	height: 30px;
+}
+
+.button1 {
+	background-color:#65794c;
+	color: white;
+	border-radius: 25px;
+	font-family: "Gill Sans", sans-serif;	
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.button2 {
+	background-color: white;
+	color:#85a065;
+	border-radius: 25px;
+	font-family: "Gill Sans", sans-serif;
+	font-weight: bold;
+	padding: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px; /* Space between elements */
+	background-color: rgb(235, 235, 235);
+	padding: 10px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+footer a button {
+	background-color: rgb(235, 235, 235);
+	color: rgb(87, 87, 87);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+/* Hover effect */
+footer a button:hover {
+	background-color: #c4e996;
+}

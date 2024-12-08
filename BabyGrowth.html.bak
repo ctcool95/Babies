@@ -1,0 +1,31 @@
+<!-- Baby Growth Website - Senior Project
+	
+	Description:
+	Get child's weight and/or length
+	Get child's age
+	Compare child's weight and/or lenth to national averages
+	Display child's percentile in weight and/or length and display national averages for quartiles at that age
+			
+Created by: Cameron Cooley
+Created on: 09-15-2024
+-->
+
+<html lang="en">
+
+<head>
+	<script type="text/JavaScript" src="js/main.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div id="grade">
+		<title>Grade Converter</title>
+		<h1>See what your letter grade is!</h1>
+		<li><input type="text" id="averageGrade" placeholder="Average Grade"></li>
+		<li><input type="button" value="Submit" onClick="convert()"></li>
+		</br>
+		<h2 id="letterGrade"></h2>
+	</div>
+</body>
+
+</html>
